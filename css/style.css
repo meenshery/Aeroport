@@ -1,0 +1,258 @@
+/* font */
+
+@font-face {
+    font-family: 'Aeroport';
+    src: url('/fonts/Aeroport.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: monospace, 'Aeroport';
+    src: url('/fonts/AeroportMono.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeroport';
+    src: url('/fonts/Aeroport-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeroport';
+    src: url('/fonts/Aeroport-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aeroport';
+    src: url('/fonts/Aeroport-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeroport';
+    src: url('/fonts/Aeroport-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aeroport';
+    src: url('/fonts/Aeroport-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeroport';
+    src: url('/fonts/Aeroport-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aeroport';
+    src: url('/fonts/Aeroport-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* html */
+
+html {
+    font-family: 'Aeroport';
+}
+
+p {
+    color: #000;
+    background-color: #BABABA;
+    font-family: 'Aeroport';
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+/* cover */
+
+.cover {
+    box-sizing: border-box;
+    width: 100%;
+    height: 832px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+}
+
+.cover-heading {
+    box-sizing: border-box;
+    width: 948px;
+    height: 178px;
+    flex-shrink: 0;
+    margin: 19px auto 25px; 
+    display: block;
+
+}
+
+.cover-description {
+    color: #000;
+    font-family: 'Aeroport';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    margin: 0 auto;
+}
+
+.cover-img {
+    margin: 69px auto 23px; 
+}
+
+.hse-cover {
+    width: 171px;
+    height: 69px;
+    flex-shrink: 0;
+    margin: -120px 240px 50px 107px;
+}
+
+/* complectation */
+
+.complectation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+table, th, td, tr {
+    margin: 0px 0px 123px 190px; 
+    border: 3px solid #000;
+    border-collapse: collapse;
+    font-size: 32px;
+    
+}
+
+table {
+    width: 428px;
+    height: 600px;
+}
+
+.table-no {
+    text-align: center;
+}
+
+.table-light {
+    font-weight: 300;
+    padding-left: 35px;
+    
+}
+
+.table-light-italic {
+    font-weight: 300;
+    font-style: italic;
+    padding-left: 35px;
+}
+
+.table-regular {
+    padding-left: 35px;
+}
+
+.table-italic {
+    font-style: italic;
+    padding-left: 35px;
+}
+
+.table-medium {
+    font-weight: 500;
+    padding-left: 35px;
+}
+
+.table-medium-italic {
+    font-weight: 500;
+    font-style: italic;
+    padding-left: 35px;
+}
+
+.table-bold {
+    font-weight: bold;
+    padding-left: 35px;
+}
+
+.table-bold-italic {
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 35px;
+}
+
+.table-mono {
+    font-family: monospace, 'Aeroport';
+    padding-left: 35px;
+}
+
+.complectation-img {
+    width: 526px;
+    margin-left: 127px;
+}
+
+/* grotesque */
+
+.grotesque {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nail {
+    width: 67px;
+    height: 84px;
+    margin: 0px 1200px 0px 173px;
+}
+
+.qrotesque-img {
+    margin-left: 123px;
+}
+
+.grotesque-hand {
+    flex-shrink: 0;
+    margin: 335px 0px 0px 5px;
+}
+
+.grotesque-p {
+    width: 273px;
+    height: 170px;
+    padding: 14px;
+    margin-left: 100px;
+}
+
+.grotesque-img-2 {
+    margin: 250px 126px 0px -55px;
+}
+
+/* bed */
+
+.bed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bed-img {
+    width: 1174.479px;
+    height: 725px;
+    margin-left: -120px;
+}
+
+.bed-p {
+    width: 280px;
+    height: 170px;
+    padding: 14px;
+    margin: 255px 158px 0px -100px;
+}
