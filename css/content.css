@@ -200,8 +200,10 @@ table, th, td, tr {
     border: 3px solid #000;
     border-collapse: collapse;
     font-size: 32px;
+}
+
+td {
     vertical-align: inherit;
-    
 }
 
 table {
