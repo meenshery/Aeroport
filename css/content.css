@@ -204,7 +204,7 @@ table, th, td, tr {
 
 td {
     display: table-cell;
-    vertical-align: center;
+    vertical-align: middle;
     unicode-bidi: isolate;
 }
 
