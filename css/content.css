@@ -203,7 +203,9 @@ table, th, td, tr {
 }
 
 td {
-    text-align: -internal-center;
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
 }
 
 table {
