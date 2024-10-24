@@ -203,7 +203,7 @@ table, th, td, tr {
 }
 
 td {
-    vertical-align: inherit;
+    text-align: center;
 }
 
 table {
