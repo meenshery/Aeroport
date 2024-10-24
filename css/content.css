@@ -697,11 +697,11 @@ table {
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
+    justify-content: space-between;
 }
 
 .end-p-1 {
     display: flex;
-    width: 392px;
     height: 58px;
     font-size: 24px;
     flex-direction: column;
@@ -717,13 +717,11 @@ table {
 
 .end-p-2 {
     display: flex;
-    width: 392px;
     height: 58px;
     font-size: 24px;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    margin: auto;
     margin-top: 68px;
     background-color: #fff;
 }
@@ -734,15 +732,13 @@ table {
 
 .end-p-3 {
     display: flex;
-    width: 392px;
     height: 58px;
     font-size: 24px;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    margin-left: auto;
-    margin-right: 0;
     margin-top: 68px;
+    text-align: end;
     background-color: #fff;
 }
 
