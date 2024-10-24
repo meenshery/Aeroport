@@ -203,7 +203,7 @@ table, th, td, tr {
 }
 
 td {
-    text-align: center;
+    text-align: -internal-center;
 }
 
 table {
